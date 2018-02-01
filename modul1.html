@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jurnal 1</title>
+</head>
+<body>
+	<h2>Formulir Pendaftaran Praktikan</h2>
+	<form action="" method="POST">
+		<table border="0"; width="120">
+			<tr>
+				<td>Nama</td>
+				<td>:</td>
+				<td width="900"><input type="text" name="nama_input" class="text-field" id="nama_id" placeholder="Input Nama"></td> 
+			</tr>
+			<tr>
+				<td>Username</td>
+				<td>:</td>
+				<td  width="900"><input type="text" name="uname_input" class="text-field" id="uname_id" placeholder="Input Username"></td>
+			</tr>
+			<tr>
+				<td>Password</td>
+				<td>:</td>
+				<td  width="900"><input type="Password" name="password_input" class="text-field" id="password_id" placeholder="Input Password"></td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td  width="900"><input type="Email" name="email_input" class="text-field" id="email_id" placeholder="Input Email"></td>
+			</tr>
+			<tr>
+				<td>Jenis Kelamin</td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="jk_input" class="radioB" id="radioB" value="Pria">Pria</input>
+					<input type="radio" name="jk_input" class="radioB" value="Wanita">Wanita</input>
+				</td>
+			</tr>
+			<tr>
+				<td>Hobi</td>
+				<td>:</td>
+				<td>
+					<input type="checkbox" name="hobi_input" class="checkbox" id="checkB_id" value="Renang">Renang </input></br>
+					<input type="checkbox" name="hobi_input" class="checkbox" id="checkB_id" value="Futsal">Futsal</input></br>
+					<input type="checkbox" name="hobi_input" class="checkbox" id="checkB_id" value="Masak">Masak</input></br>
+					<input type="checkbox" name="hobi_input" class="checkbox" id="checkB_id" value="Hiking">Hiking</input></br>
+					<input type="checkbox" name="hobi_input" class="checkbox" id="checkB_id" value="Touring">Touring</input></br>
+				</td>
+			<tr>
+				<td>Jenjang Pendidikan</td>
+				<td>:</td>
+				<td>
+					<select name="jp_input" class="dropdown" id="jp_id">
+						<option value="" selected>~~~~~Pilih~~~~~~
+						<option value="D3">Tamat D3</option>
+						<option value="S1">Tamat S1</option>
+						<option value="S2">Tamat S2</option>
+						<option value="S3">Tamat S3</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Kritik dan Saran</td>
+				<td>:</td>
+				<td><textarea rows="5" cols="40%"></textarea></td>
+			</tr>
+				<td colspan="3" align="right">
+					<button type="button" name="btnCancel" class="btnCancel" id="id_btnCancel">Cancel</button>
+					<button type="button" name="btnSubmit" class="btnSubmit" id="id_btnSubmit">Submit</button>
+
+				</td>
+			</tr>
+		</table>
+</body>
+</html>
