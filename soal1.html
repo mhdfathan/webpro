@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+	<head>
+	</head>
+    <body>
+    	<script>
+    		function hilang(){
+    			document.getElementById('teks').style.visibility="hidden";
+    		}
+    		function muncul(){
+    			document.getElementById('teks').style.visibility="visible";	
+    		}
+    		function hilangisi(){
+    			document.getElementById('kata').style.display="none";
+    		}
+    		function sorot(){
+    			document.getElementById('text').style.visibility=document.getElementById(text).innerHTML="Nama tidak di sorot";
+    		}
+
+    	</script>
+		<button onclick="alert('Hati Hati Jangan Asal Tekan')">Klik Disini</button>
+		<br/>
+		<p id="teks" onmouseover="hilang()" onmouseout="muncul()">Saat mouse lewat diatas ini</p><br />
+		<textarea onkeypress="hilangisi()"></textarea><span id="kata">tulisan hilang saat keyboard sedang ditekan</span><br>
+
+		<input type="text" value="Nama" id="nama" onmousemove="sorot()" /><div id="focus"></div>
+
+		
+	
+		<br /><br />
+		
+		
+		
+	</body>
+
+</html>
